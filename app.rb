@@ -14,4 +14,3 @@ class App < Sinatra::Base
     "My favorite-song is n/a"
   end 
 end
-end
