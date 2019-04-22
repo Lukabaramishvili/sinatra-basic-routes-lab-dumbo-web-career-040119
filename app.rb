@@ -6,7 +6,11 @@ class App < Sinatra::Base
     "My name is Luka"
   end 
   
-  deg '/hometown'
+  get '/hometown'
     "My hometown is Tbilisi"
+  end 
+  
+  get '/favorite-song'
+    "My favorite-song is n/a"
   end 
 end
